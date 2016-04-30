@@ -2,7 +2,19 @@
 The General Defect Classification (GDC) is a classification scheme that treats code 1) defects, 2) changes ("fixes of the defects"), 3) warnings from automated static analyzer tools (ASATs), and 4) the rules that generate these warnings ("checkers") as first class citizens and allows their classification under one common topology.
 
 ## The GDC in a Nutshell
-The GDC has two major categories, functional and maintainability defects. In total, these are split up into 16 sub-categories, depicted in `gdc-topology.pdf`. A more thorough description of the GDC with a view toward static analyzers and the rules they check for is given in `gdc-category-description-1.pdf`. We provide a mapping between the 2,385 rules from the nine supported ASATs (Checkstyle, ESLint, FindBugs, JSCS, JSHint, JSL, PMD, Pylint, and RuboCop) to their respective GDC categories in `asat-gdc-mapping.html`. A good description of the complimentary GDC categories toward the other views 1 and 2 accompanies this package as `gdc-category-description-2.pdf`, originally authored by [Mika Mäntylä and Casper Lassenius](https://dx.doi.org/10.6084/m9.figshare.689805) under a CC-BY license.
+The GDC has two major categories, functional and maintainability defects. In total, these are split up into 16 sub-categories, depicted in `gdc-topology.pdf`. A more thorough description of the GDC with a view toward static analyzers and the rules they check for is given in `gdc-category-description-1.pdf`. We provide a mapping between the 2,385 rules from the nine supported ASATs (Checkstyle, ESLint, FindBugs, JSCS, JSHint, JSL, PMD, Pylint, and RuboCop, see table below) to their respective GDC categories in `asat-gdc-mapping.html`. A good description of the complimentary GDC categories toward the other views 1 and 2 accompanies this package as `gdc-category-description-2.pdf`, originally authored by [Mika Mäntylä and Casper Lassenius](https://dx.doi.org/10.6084/m9.figshare.689805) under a CC-BY license.
+
+| *Tool*     | *Version* |
+| ---------- | --------- |
+| Checkstyle | 6.6       |
+| FindBugs   | 3.0.1     |
+| ESLint     | 0.19.0    |
+| JSCS       | 1.12.0    |
+| JSL        | 0.3.0     |
+| JSHint     | 2.7.0     |
+| PMD        | 5.7.0     |
+| Pylint     | 1.4.3     |
+| RuboCop    | 0.30.0    |
 
 ## How to Cite
 If the GDC is helpful to you, please pay attribution by referencing this GDC usage package (*Moritz Beller, http://dx.doi.org/10.6084/m9.figshare.1603419, 2016*) and citing the paper in which we introduced it:

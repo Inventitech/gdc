@@ -1,4 +1,4 @@
-# Checkstyle
+# Checkstyle (version 6.6)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -183,7 +183,7 @@
 |WriteTag|Tool Specific|Yes|
 |XPath|Regular Expressions|No|
 
-# ESLint
+# ESLint (version 0.19.0)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -345,7 +345,7 @@
 |wrap-regex|Best Practices|No|
 |yoda|Best Practices|Yes|
 
-# FindBugs Filters
+# FindBugs Filters (version 3.0.1)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -864,7 +864,7 @@
 |XSS\_REQUEST\_PARAMETER\_TO\_SEND\_ERROR|Interface|No|
 |XSS\_REQUEST\_PARAMETER\_TO\_SERVLET\_WRITER|Interface|No|
 
-# FindBugs Eclipse Preferences
+# FindBugs Eclipse Preferences (version 3.0.1)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -1029,7 +1029,7 @@
 |WrongMapIterator|Best Practices|No|
 |XMLFactoryBypass|Best Practices|No|
 
-# JSCS
+# JSCS (version 1.12.0)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -1150,7 +1150,7 @@
 |validateParameterSeparator|Style Conventions|Yes|
 |validateQuoteMarks|Style Conventions|Yes|
 
-# JSHint
+# JSHint (version 2.7.0)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -1408,7 +1408,7 @@
 |wsh|Tool Specific|No|
 |yui|Tool Specific|No|
 
-# JSL
+# JSL (version 0.3.0)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -1476,7 +1476,7 @@
 |want\_assign\_or\_call|Refactorings - Simplifications|No|
 |with\_statement|Best Practices|No|
 
-# PMD
+# PMD (version 5.7.0)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -1811,7 +1811,7 @@
 |unusedcode.xml/UnusedPrivateField|Refactorings - Redundancies|No|
 |unusedcode.xml/UnusedPrivateMethod|Refactorings - Redundancies|No|
 
-# Pylint
+# Pylint (version 1.4.3)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
@@ -2206,7 +2206,7 @@
 |wildcard-import|Code Structure|No|
 |zope|Tool Specific|No|
 
-# RuboCop
+# RuboCop (version 0.30.0)
 
 |Rule name|Classification|Redefinable|
 |---------|--------------|-----------|
