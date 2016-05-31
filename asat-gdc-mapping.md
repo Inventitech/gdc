@@ -344,6 +344,10 @@
 |wrap-iife|Resource|Yes|
 |wrap-regex|Best Practices|No|
 |yoda|Best Practices|Yes|
+|callback-return|Logic|No|
+|no-duplicate-imports|Best Practices|No|
+|no-useless-call|Simplifications|No|
+|no-useless-escape|Redundancies|No|
 
 # FindBugs Filters (version 3.0.1)
 
@@ -1149,6 +1153,8 @@
 |validateLineBreaks|Style Conventions|Yes|
 |validateParameterSeparator|Style Conventions|Yes|
 |validateQuoteMarks|Style Conventions|Yes|
+|requirePaddingNewLinesAfterBlocks|Style Conventions|No|
+|validateNewlineAfterArrayElements|Style Conventions|No|
 
 # JSHint (version 2.7.0)
 
@@ -1810,6 +1816,9 @@
 |unusedcode.xml/UnusedModifier|Refactorings - Redundancies|No|
 |unusedcode.xml/UnusedPrivateField|Refactorings - Redundancies|No|
 |unusedcode.xml/UnusedPrivateMethod|Refactorings - Redundancies|No|
+|basic.xmlSimplifiedTernary|Simplifications|No|
+|comments.xml/CommentDefaultAccessModifier|Documentation Conventions|No|
+|design.xmlSingleMethodSingleton|Resource|No|
 
 # Pylint (version 1.4.3)
 
@@ -2205,6 +2214,35 @@
 |W5106|Migration|No|
 |wildcard-import|Code Structure|No|
 |zope|Tool Specific|No|
+|consider-using-enumerate|Simplifications|No|
+|deprecated-method|Migration|No|
+|invalid-encoded-data|Resource|No|
+|invalid-sequence-index|Interface|No|
+|misplaced-bare-raise|Error Handling|No|
+|misplaced-comparison-constant|Best Practices|No|
+|multiple-imports|Style Conventions|No|
+|no-classmethod-decorator|Best Practices|No|
+|no-main-executable|Interface|No|
+|no-main-shebang|Interface|No|
+|no-shebang|Documentation Conventions|No|
+|no-staticmethod-decorator|Best Practices|No|
+|non-executable|Interface|No|
+|not-an-iterable|Interface|No|
+|property-on-old-class|Migration|No|
+|redefined-variable-type|Logic|No|
+|redundant-unittest-assert|Redundancies|No|
+|simplifiable-if-statement|Simplifications|No|
+|too-many-boolean-expressions|Metric|No|
+|too-many-nested-blocks|Metric|No|
+|unbalanced-tuple-unpacking|Interface|No|
+|unexpected-special-method-signature|Interface|No|
+|ungrouped-imports|Best Practices|No|
+|unidiomatic-typecheck|Best Practices|No|
+|unneeded-not|Simplifications|No|
+|unsubscriptable-object|Interface|No|
+|using-constant-test|Logic|No|
+|wrong-import-order|Best Practices|No|
+|wrong-import-position|Best Practices|No|
 
 # RuboCop (version 0.30.0)
 
@@ -2431,4 +2469,20 @@
 |WhileUntilDo|Best Practices|No|
 |WhileUntilModifier|Best Practices|No|
 |WordArray|Best Practices|No|
-
+|ConditionalAssignment|Best Practices|No|
+|EmptyCaseCondition|Best Practices|No|
+|FixedSize|Best Practices|No|
+|IfInsideElse|Simplifications|No|
+|IndentAssignment|Style Conventions|No|
+|IneffectiveAccessModifier|Interface|No|
+|MultilineArrayBraceLayout|Style Conventions|No|
+|MultilineHashBraceLayout|Style Conventions|No|
+|MultilineMethodCallBraceLayout|Style Conventions|No|
+|MultilineMethodCallIndentation|Style Conventions|No|
+|MutableConstant|Resource|No|
+|NextWithoutAccumulator|Logic|No|
+|RedundantFreeze|Redundancies|No|
+|RedundantMerge|Best Practices|No|
+|RedundantParentheses|Redundancies|No|
+|UnneededDisable|Redundancies|No|
+|ZeroLengthPredicate|Simplifications|No|
